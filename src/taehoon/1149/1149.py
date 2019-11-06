@@ -15,3 +15,4 @@ for j in range(T) :
         dp[j][g] = min(dp[j-1][r]+color[j][g],dp[j-1][b]+color[j][g])
         dp[j][b] = min(dp[j-1][r]+color[j][b],dp[j-1][g]+color[j][b])
 print(min(dp[T-1]))
+# 김도남바보
